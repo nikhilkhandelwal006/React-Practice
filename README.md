@@ -12,6 +12,10 @@ This repository is divided into several chapters, each focusing on different Rea
 - **Ch-2**: 🔧 [Working with Components & Props](./Ch-2/react-app) - Learn to create and pass data to components.
 - **Ch-3**: 💡 [Introduction to `useState`](./Ch-3/react-app) - Understand state management using the `useState` hook.
 - **Ch-4**: 🔄 [Passing Props as Children & Functions](./Ch-4/react-app) - Dive deep into how props can be used as children and functions.
+- **Ch-5**: 🛠️ [State Lifting](./Ch-5/react-app) - Learn how to lift state up to parent components.
+- **Ch-6**: 🎭 [Conditional Rendering](./Ch-6/react-app) - Explore techniques for rendering UI based on conditions.
+- **Ch-7**: 🔲 [Event Handling](./Ch-7/react-app) - Understand how to handle events in React.
+- **Ch-8**: ⚛️ [useEffect Hook](./Ch-8/react-app) - Learn about side effects and how to use the `useEffect` hook.
 
 Each chapter builds on the previous one to enhance your React skills step-by-step.
 
@@ -57,6 +61,10 @@ This repository will help you explore and understand key React concepts, includi
 - **Props**: Understand how to pass data between components.
 - **State Management**: Introduction to `useState` for managing state in functional components.
 - **Advanced Props**: Master passing props as children or functions to create more dynamic and reusable components.
+- **State Lifting**: Learn how to lift state up to parent components for shared state management.
+- **Conditional Rendering**: Render UI based on specific conditions to make your app dynamic.
+- **Event Handling**: Understand how to handle user interactions with events.
+- **Side Effects**: Use the `useEffect` hook to manage side effects like API calls and subscriptions.
 
 ---
 
@@ -82,7 +90,6 @@ This repository uses the following tools and libraries:
 
 ---
 
-
 ## 📞 Contact
 
 If you have any questions, feel free to reach out to me at [nikhilkhandelwal006](https://github.com/nikhilkhandelwal006). 😊
@@ -91,4 +98,3 @@ If you have any questions, feel free to reach out to me at [nikhilkhandelwal006]
 
 Happy Coding! 💻🎉
 ```
-
