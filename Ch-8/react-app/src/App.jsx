@@ -6,7 +6,6 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
   const [total, setTotal] = useState(1);
-  const [seconds, setSeconds] = useState(0);
 
   //first --> side-effect function
   //second --> clean-up function
