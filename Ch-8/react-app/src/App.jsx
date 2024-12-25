@@ -2,15 +2,25 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import LoggerComponent from "./components/LoggerComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [total, setTotal] = useState(1);
+  // const [count, setCount] = useState(0);
+  // const [total, setTotal] = useState(1);
 
   //first --> side-effect function
   //second --> clean-up function
   //third --> comma seperated dependencies list.
 
+ //use-Effect Syntax:-
+  // useEffect(() => {
+  //   // Code to run on every render (side effect)
+  
+  //   return () => {
+  //     // Cleanup code (optional)
+  //   };
+  // }, [dependencies]);  // List of dependencies
+  
 
   
   //#/variation- 1:-
@@ -54,31 +64,35 @@ function App() {
   //  #/variation- 5:-
   // is baar let's add a cleanup function
 
-  useEffect(() => {
-    alert("count is updated");
-    return () => {
-      alert("count is unmounted form UI");
-    };
-  }, [count]);
+  // useEffect(() => {
+  //   alert("count is updated");
+  //   return () => {
+  //     alert("count is unmounted form UI");
+  //   };
+  // }, [count]);
 
-  function handleClick() {
-    setCount(count + 1);
-  }
 
-  function handleTotalClick() {
-    setTotal(total + 1);
-  }
+
+  // function handleClick() {
+  //   setCount(count + 1);
+  // }
+
+  // function handleTotalClick() {
+  //   setTotal(total + 1);
+  // }
 
   return (
     <>
-      count is :- {count}
+
+     <LoggerComponent/>
+      {/* count is :- {count}
       <br />
       <button onClick={handleClick}>update Count</button>
       <br />
       <br />
       count is :- {total}
       <br />
-      <button onClick={handleTotalClick}>update Total</button>
+      <button onClick={handleTotalClick}>update Total</button> */}
     </>
   );
 }
