@@ -3,6 +3,10 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import LoggerComponent from "./components/LoggerComponent";
+import TimerComponent from "./components/TimerComponent";
+import DataFetcher from "./components/DataFetcher";
+import MultiEffectComponent from "./components/MultiEffectComponent";
+import ResizeComponent from "./components/ResizeComponent";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -84,7 +88,13 @@ function App() {
   return (
     <>
 
-     <LoggerComponent/>
+     {/* <LoggerComponent/> */}
+     {/* <TimerComponent/> */}
+      {/* <DataFetcher/> */}
+   {/* <ResizeComponent/> */}
+    {/* <MultiEffectComponent/> */}
+
+
       {/* count is :- {count}
       <br />
       <button onClick={handleClick}>update Count</button>
