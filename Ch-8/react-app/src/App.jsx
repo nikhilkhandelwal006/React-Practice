@@ -92,7 +92,7 @@ function App() {
      {/* <TimerComponent/> */}
       {/* <DataFetcher/> */}
    {/* <ResizeComponent/> */}
-    {/* <MultiEffectComponent/> */}
+    <MultiEffectComponent/>
 
 
       {/* count is :- {count}
