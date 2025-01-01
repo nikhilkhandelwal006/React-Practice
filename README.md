@@ -1,8 +1,7 @@
-
 ```markdown
 # React Practice 💻🚀
 
-Welcome to the **React Practice** repository! This repo contains a series of hands-on React exercises designed to strengthen your understanding of key React concepts. Each chapter in this project will walk you through different topics, from building your first React app to understanding advanced concepts like passing props as children and functions.
+Welcome to the **React Practice** repository! This repo contains a series of hands-on React exercises designed to strengthen your understanding of key React concepts. Each chapter in this project will walk you through different topics, from building your first React app to understanding advanced concepts like hooks, context, and forms.
 
 ## 📚 Contents
 
@@ -16,8 +15,10 @@ This repository is divided into several chapters, each focusing on different Rea
 - **Ch-6**: 🎭 [Conditional Rendering](./Ch-6/react-app) - Explore techniques for rendering UI based on conditions.
 - **Ch-7**: 🔲 [Event Handling](./Ch-7/react-app) - Understand how to handle events in React.
 - **Ch-8**: ⚛️ [useEffect Hook](./Ch-8/react-app) - Learn about side effects and how to use the `useEffect` hook.
+- **Ch-9**: 🌐 [useContext Hook](./Ch-9/react-app) - Understand context and how to manage global state with `useContext`.
+- **Ch-10**: 🛤️ [Routing in React](./Ch-10/react-app) - Implement client-side routing using React Router.
+- **Ch-11**: 🖋️ [React Hook Form](./Ch-11/react-app) - Simplify form handling and validation with `react-hook-form`.
 
-Each chapter builds on the previous one to enhance your React skills step-by-step.
 
 ---
 
@@ -65,6 +66,9 @@ This repository will help you explore and understand key React concepts, includi
 - **Conditional Rendering**: Render UI based on specific conditions to make your app dynamic.
 - **Event Handling**: Understand how to handle user interactions with events.
 - **Side Effects**: Use the `useEffect` hook to manage side effects like API calls and subscriptions.
+- **Global State**: Manage app-wide state with the `useContext` hook.
+- **Routing**: Create multi-page applications with React Router.
+- **Form Handling**: Simplify and validate forms using `react-hook-form`.
 
 ---
 
