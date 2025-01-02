@@ -8,7 +8,7 @@ import { createContext } from 'react';
 const UserContext=createContext();
 //step:2 - wrap all the child inside a provider
 //step:3 - pass value
-//step:4 - consumer k andar jaake consume karlo by using "useContent()"
+//step:4 - consumer k andar jaake consume karlo by using "useContext()"
 
 const ThemeContext=createContext();
 
