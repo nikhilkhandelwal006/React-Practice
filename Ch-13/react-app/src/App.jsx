@@ -8,18 +8,25 @@ function App() {
   const [count, setCount] = useState(0)
   // let val=0
   
-  let vall=useRef(0)
+let vall=useRef(0)
+ let btnRef=useRef()
 
+ 
+ function handleIncrement(){
+   // val=val+1
+   // console.log("the value of val",val)
+   vall.current=vall.current+1
+   console.log("the value of vall",vall.current)
+   setCount(count+1)
+  }
+  
   useEffect(()=>{
     console.log("main firse re-render hogy hu")
   })
-  
-  function handleIncrement(){
-    // val=val+1
-    // console.log("the value of val",val)
-    vall.current=vall.current+1
-    console.log("the value of vall",vall.current)
-    setCount(count+1)
+
+
+  function changeColor(){
+  btnRef.current.style.backgroundColor="red"
   }
 
   return (
@@ -28,17 +35,22 @@ function App() {
   
   count:{count}
 
-
   <br />
-   
- <br />
-     <button onClick={handleIncrement}>
+  <br />
+ 
+ 
+     <button ref={btnRef} onClick={handleIncrement}>
      Increment
      </button>
    
       <br />
+      <br />
+      <br />
 
-     
+      <button onClick={changeColor}>
+    change increment button color
+     </button>     
+
 
 
     </div>
