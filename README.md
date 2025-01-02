@@ -1,4 +1,3 @@
-```markdown
 # React Practice 💻🚀
 
 Welcome to the **React Practice** repository! This repo contains a series of hands-on React exercises designed to strengthen your understanding of key React concepts. Each chapter in this project will walk you through different topics, from building your first React app to understanding advanced concepts like hooks, context, and forms.
@@ -18,7 +17,8 @@ This repository is divided into several chapters, each focusing on different Rea
 - **Ch-9**: 🌐 [useContext Hook](./Ch-9/react-app) - Understand context and how to manage global state with `useContext`.
 - **Ch-10**: 🛤️ [Routing in React](./Ch-10/react-app) - Implement client-side routing using React Router.
 - **Ch-11**: 🖋️ [React Hook Form](./Ch-11/react-app) - Simplify form handling and validation with `react-hook-form`.
-
+- **Ch-12**: 🛠️ [Redux Toolkit](./Ch-12/react-app) - Learn state management with Redux Toolkit.
+- **Ch-13**: 🔗 [useRef Hook](./Ch-13/react-app) - Understand and use the `useRef` hook to manage references.
 
 ---
 
@@ -50,7 +50,7 @@ npm install
 npm start
 ```
 
-Open your browser and visit `http://localhost:5173` to view your React app in action! ✨
+Open your browser and visit [http://localhost:5173](http://localhost:5173) to view your React app in action! ✨
 
 ---
 
@@ -69,6 +69,8 @@ This repository will help you explore and understand key React concepts, includi
 - **Global State**: Manage app-wide state with the `useContext` hook.
 - **Routing**: Create multi-page applications with React Router.
 - **Form Handling**: Simplify and validate forms using `react-hook-form`.
+- **Redux Toolkit**: Manage complex state with Redux Toolkit.
+- **useRef Hook**: Understand how to manage references to DOM elements or mutable variables.
 
 ---
 
@@ -88,17 +90,14 @@ We welcome contributions! If you would like to improve this project or add new R
 
 This repository uses the following tools and libraries:
 
-- [React](https://reactjs.org/) – A JavaScript library for building user interfaces.
-- [npm](https://www.npmjs.com/) – A package manager for JavaScript.
-- [Babel](https://babeljs.io/) – A JavaScript compiler to transform JSX into plain JavaScript.
+- **React** – A JavaScript library for building user interfaces.
+- **npm** – A package manager for JavaScript.
+- **Babel** – A JavaScript compiler to transform JSX into plain JavaScript.
 
 ---
 
 ## 📞 Contact
 
-If you have any questions, feel free to reach out to me at [nikhilkhandelwal006](https://github.com/nikhilkhandelwal006). 😊
-
----
+If you have any questions, feel free to reach out to me at **nikhilkhandelwal006**. 😊
 
 Happy Coding! 💻🎉
-```
