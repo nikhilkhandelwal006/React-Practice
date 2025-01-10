@@ -2,6 +2,7 @@
 import { useCallback, useState } from 'react'
 import './App.css'
 import ChildComponent from './components/ChildComponent'
+import ExpensiveComponent from './components/ExpensiveComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,14 +11,16 @@ function App() {
   //   setCount(count+1)
   // },[count])
 
-  const handleClick=useCallback(()=>{
-    setCount(count+1)
-  },[])
+  // const handleClick=useCallback(()=>{
+  //   setCount(count+1)
+  // },[])
 
   return (
     <>
    
-   <div>
+     <ExpensiveComponent/>
+
+   {/* <div>
     Count:{count}
    </div>
 <br /><br />
@@ -27,7 +30,7 @@ function App() {
 <br /><br />
 <div>
 <ChildComponent buttonName="click me " handleClick={handleClick} />
-</div>
+</div> */}
 
       
     </>
